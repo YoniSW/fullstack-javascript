@@ -1,0 +1,40 @@
+{
+  "name": "fulljs",
+  "version": "1.0.0",
+  "description": "full_stack js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jscomplete/learn-fullstack-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jscomplete/learn-fullstack-javascript/issues"
+  },
+  "homepage": "https://github.com/jscomplete/learn-fullstack-javascript#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.5",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/node": "7.x",
+    "@babel/core": "^7.13.10",
+    "@babel/eslint-parser": "^7.13.10",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.22.0",
+    "eslint-plugin-react": "^7.22.0",
+    "nodemon": "^2.0.7",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0"
+  }
+}
